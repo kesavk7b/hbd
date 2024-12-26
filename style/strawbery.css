@@ -1,0 +1,23 @@
+:root{
+    --straw:red;
+    --dot: white;
+}
+
+.strawbery{
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    background-color: red;
+    z-index: 3;
+    rotate: 45deg;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    overflow: hidden;
+}
+
+.straw-pos1{
+    top: -1.6em;
+    left: 1.6em;
+}

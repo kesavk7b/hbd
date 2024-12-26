@@ -1,0 +1,106 @@
+@import url('colorRoot.css');
+.toy-con{
+    top: 13.5em;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+    width: 20em;
+    z-index: 1;
+}
+
+.head{
+    position: absolute;
+    height: 5em;
+    width: 5em;
+    background-color: var(--skin);
+    border-radius: 40%;
+    z-index: 1;
+    top: 2em;
+}
+
+.neck{
+    position: absolute;
+    content: '';
+    top: 7em!important;
+    height: 0;
+    width: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.5em solid var(--skin);
+    z-index: 6;
+    top: 2em;
+}
+
+.eyes{
+    position: absolute;
+    height: 1.4em;
+    width: .3em;
+    background-color: black;
+    left: 1.2em;
+    top: 1em;
+}
+
+.eyes::after{
+    content: '';
+    position: absolute;
+    height: 1.4em;
+    width: 0.3em;
+    background-color: black;
+    left: 2.2em;
+}
+
+.mouth{
+    position: absolute;
+    height: 1.5em;
+    width: 2em;
+    background-color: #FE6284;
+    bottom: .5em;
+    left: 1.5em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 1px 1px;
+}
+
+.mouth::after{
+    content: '';
+    position: absolute;
+    height: 1em;
+    width: 2em;
+    background-color: var(--skin);
+    bottom: 1em;
+    left: 0.7em;
+    border-radius: 45%;
+}
+.mouth::before{
+    content: '';
+    position: absolute;
+    height: 1em;
+    width: 2em;
+    background-color: var(--skin);
+    bottom: 1em;
+    left: -0.7em;
+    border-radius: 45%;
+}
+
+.cheek{
+    position: absolute;
+    height: 1em;
+    width: 1.3em;
+    opacity: 0.2;
+    border-radius: 100%;
+    background-color: var(--cheek);
+    left: 0.1em;
+    top: 2.4em;
+}
+.cheek::after{
+    content: '';
+    position: absolute;
+    height: 1em;
+    width: 1.3em;
+    /* opacity: 0.3; */
+    border-radius: 100%;
+    background-color: var(--cheek);
+    left: 3.4em;
+    top: 0.1em;
+}

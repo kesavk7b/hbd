@@ -1,0 +1,14 @@
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    row-gap: 2em;
+    position: absolute;
+    left: 0em;
+    height: 1em;
+    width: 0.6em;
+    background-color: var(--line);
+    /* z-index: -1; */
+}

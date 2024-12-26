@@ -1,0 +1,303 @@
+:root{
+    --cream:rgb(252, 247, 247);
+    --melt:white;
+    --cake:rgb(223, 59, 157);
+}
+@import url(cake2.css);
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+.cake-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50em;
+    width: 50em;
+}
+
+.c1-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    top: 22.5em;
+    z-index: 0;
+}
+.c2-wrapper{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    z-index: 1;
+}
+
+.cake-1{
+    position: absolute;
+    height: 4em;
+    width: 15em;
+    background-color: var(--cake);
+    z-index: 0;
+}
+.cake-1::before{
+    position: absolute;
+    content:'';
+    display: block;
+    height: 5em;
+    width: 15em;
+    border-radius: 50%;
+    background-color: var(--cream);
+    bottom: 1.7em;
+    transform: rotateX(45deg);
+    z-index: 3;
+}
+.cake-1::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 5em;
+    width: 15em;
+    top:1.3em;
+    border-radius: 50%;
+    background-color: var(--cake);
+    transform: rotateX(45deg);
+    z-index: 1;
+}
+.cream-c1{
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    z-index: 2;
+}
+.cream-c1::before{
+    content: '';
+    position: absolute;
+    height: 2.3em;
+    width: 0.9em;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1.5em;
+    z-index: 2;
+}
+
+.cream-c1::after{
+    position: absolute;
+    content: '';
+    height: 3.5em;
+    width: 2em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2.3em;
+    z-index: 2;
+}
+.cream-c2{
+    position: absolute;
+    height: 3em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 4.3em;
+    z-index: 2;
+}
+.cream-c2::before{
+    content: '';
+    position: absolute;
+    height: 3.5em;
+    width: 1.7em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1em;
+    z-index: 2;
+}
+.cream-c2::after{
+    position: absolute;
+    content: '';
+    height: 2.5em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2.1em;
+    z-index: 2;
+}
+
+
+.cream-c3{
+    position: absolute;
+    height: 3em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 7.4em;
+    z-index: 2;
+}
+.cream-c3::before{
+    content: '';
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1em;
+    z-index: 2;
+}
+.cream-c3::after{
+    position: absolute;
+    content: '';
+    height: 2em;
+    width: 0.6em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2em;
+    z-index: 2;
+}
+
+
+.cake-2{
+    position: absolute;
+    height: 4em;
+    width: 10em;
+    background-color: var(--cake);
+    z-index: 0;
+}
+.cake-2::before{
+    position: absolute;
+    content:'';
+    display: block;
+    height: 5em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: var(--cream);
+    bottom: 1.7em;
+    transform: rotateX(45deg);
+    z-index: 3;
+}
+.cake-2::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 5em;
+    width: 10em;
+    top:1.3em;
+    border-radius: 50%;
+    background-color: var(--cake);
+    transform: rotateX(45deg);
+    z-index: 1;
+}
+.cream1-c1{
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    z-index: 2;
+}
+.cream1-c1::before{
+    content: '';
+    position: absolute;
+    height: 2.3em;
+    width: 0.9em;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1.5em;
+    z-index: 2;
+}
+
+.cream1-c1::after{
+    position: absolute;
+    content: '';
+    height: 3.5em;
+    width: 2em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2.3em;
+    z-index: 2;
+}
+.cream1-c2{
+    position: absolute;
+    height: 3em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 4.3em;
+    z-index: 2;
+}
+.cream1-c2::before{
+    content: '';
+    position: absolute;
+    height: 3.5em;
+    width: 1.7em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1em;
+    z-index: 2;
+}
+.cream1-c2::after{
+    position: absolute;
+    content: '';
+    height: 2.5em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2.1em;
+    z-index: 2;
+}
+
+
+.cream1-c3{
+    position: absolute;
+    height: 3em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 7.4em;
+    z-index: 2;
+}
+.cream1-c3::before{
+    content: '';
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1em;
+    z-index: 2;
+}
+.cream1-c3::after{
+    position: absolute;
+    content: '';
+    height: 2em;
+    width: 0.6em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2em;
+    z-index: 2;
+}

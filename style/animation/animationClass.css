@@ -1,0 +1,183 @@
+.cakeAnim{
+    animation: cake-pop 0.3s ease-in-out forwards 8s;
+}
+
+.toyAnim{
+    animation: toy-pop 0.3s ease-in-out forwards 8s;
+}
+
+.hair10Anim{
+    animation: hide-hair 0.3s ease-in-out forwards 8s;
+}
+
+.handAnim-l{
+    animation: hand-left 0.3s ease-in-out forwards 8s;
+}
+
+.handAnim-r{
+    animation: hand-right 0.3s ease-in-out forwards 8s;
+}
+
+
+/* hide container */
+.hideContainAnim,.hidecon{
+    animation: hide 8s ease-in-out forwards;
+}
+
+.lineAnim{
+    animation: growline 3s ease-in-out forwards,moveTop 5s ease-in-out forwards 4s;
+}
+
+:is(.wish,.wish1,.name) span{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(48, 92, 64);
+    /* background: linear-gradient(
+        120deg,
+        rgb(4, 91, 9) 30%,
+        rgb(133, 218, 174) 10%,
+        rgb(239, 38, 38) 40%, 
+        green 70%
+    );
+    -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent; */
+}
+.wish span {
+    display: inline-block;
+    transform: scale(0);
+    opacity: 0;
+    animation: pop 0.5s ease-in-out forwards; 
+}
+.wish1 span {
+    display: inline-block;
+    transform: scale(0);
+    opacity: 0;
+    animation: pop 0.5s ease-in-out forwards; 
+}
+.name span {
+    display: inline-block;
+    transform: scale(0);
+    opacity: 0;
+    animation: pop 0.5s ease-in-out forwards; 
+}
+
+/* temp command */
+.wish1 span:nth-child(1) {
+    animation-delay: 3.1s;
+}
+.wish1 span:nth-child(2) {
+    animation-delay: 3.2s;
+}
+.wish1 span:nth-child(3) {
+    animation-delay: 3.3s;
+}
+.wish1 span:nth-child(4) {
+    animation-delay: 3.4s;
+}
+.wish1 span:nth-child(5) {
+    animation-delay: 3.5s;
+}
+.wish1 span:nth-child(6) {
+    animation-delay: 3.6s;
+}
+.wish1 span:nth-child(7) {
+    animation-delay: 3.1s;
+}
+.wish1 span:nth-child(8) {
+    animation-delay: 3.2s;
+}
+.wish1 span:nth-child(9) {
+    animation-delay: 3.3s;
+}
+.wish1 span:nth-child(9) {
+    animation-delay: 3.4s;
+}
+.wish1 span:nth-child(10) {
+    animation-delay: 3.5s;
+}
+.wish1 span:nth-child(11) {
+    animation-delay: 3.6s;
+}
+.wish1 span:nth-child(12) {
+    animation-delay: 3.7s;
+}
+.wish1 span:nth-child(13) {
+    animation-delay: 3.8s;
+}
+.wish1 span:nth-child(14) {
+    animation-delay: 3.1s;
+}
+.wish1 span:nth-child(15) {
+    animation-delay: 3.1s;
+}
+.wish1 span:nth-child(16) {
+    animation-delay: 3.2s;
+}
+.wish1 span:nth-child(17) {
+    animation-delay: 3.1s;
+}
+.wish1 span:nth-child(18) {
+    animation-delay: 3.1s;
+}
+.wish1 span:nth-child(19) {
+    animation-delay: 3.2s;
+}
+.wish1 span:nth-child(20) {
+    animation-delay: 3.3s;
+}
+
+.wish span:nth-child(1) {
+    animation-delay: 3.1s;
+}
+.wish span:nth-child(2) {
+    animation-delay: 3.2s;
+}
+.wish span:nth-child(3) {
+    animation-delay: 3.3s;
+}
+.wish span:nth-child(4) {
+    animation-delay: 3.4s;
+}
+.wish span:nth-child(5) {
+    animation-delay: 3.5s;
+}
+.wish span:nth-child(6) {
+    animation-delay: 3.1s;
+}
+.wish span:nth-child(7) {
+    animation-delay: 3.2s;
+}
+.wish span:nth-child(8) {
+    animation-delay: 3.3s;
+}
+.wish span:nth-child(9) {
+    animation-delay: 3.5s;
+}
+
+
+
+.name span:nth-child(1) {
+    animation-delay: 3.1s;
+}
+.name span:nth-child(2) {
+    animation-delay: 3.2s;
+}
+.name span:nth-child(3) {
+    animation-delay: 3.3s;
+}
+.name span:nth-child(4) {
+    animation-delay: 3.4s;
+}
+.name span:nth-child(5) {
+    animation-delay: 3.5s;
+}
+.name span:nth-child(6) {
+    animation-delay: 3.6s;
+}
+.name span:nth-child(7) {
+    animation-delay: 3.7s;
+}
+.name span:nth-child(8) {
+    animation-delay: 3.8s;
+}

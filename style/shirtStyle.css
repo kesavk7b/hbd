@@ -1,0 +1,325 @@
+@import url('colorRoot.css');
+.shirt1{
+    position: absolute;
+    top:9em;
+    height: 0;
+    width: 0;
+    border-right: 3em solid transparent;
+    border-left: 3em solid transparent;
+    border-right: 3em solid var(--shirt);
+}
+
+.shirt{
+    position: absolute;
+    top:7em;
+    height: 3.8em;
+    width: 4em;
+    background-color: var(--shirt);
+}
+.shirt::before{
+    content: '';
+    position: absolute;
+    right: 4em;
+    height: 0;
+    width: 0;
+    border-top: 2.5em solid transparent;
+    border-left: 0.2em solid transparent;
+    border-right: 0.2em solid var(--shirt);
+    border-bottom: 1.3em solid var(--shirt);
+}
+.shirt::after{
+    content: '';
+    position: absolute;
+    left: 4em;
+    height: 0;
+    width: 0;
+    border-top: 2.5em solid transparent;
+    border-right: 0.2em solid transparent;
+    border-left: 0.2em solid var(--shirt);
+    border-bottom: 1.3em solid var(--shirt);
+}
+.shirt-hl{
+    position: absolute;
+    right:  3em;
+    bottom: 3.5em;
+    height: 2.5em;
+    width: 2.5em;
+    background: var(--shirt);
+    rotate: 65deg;
+}
+.shirt-hl::after{
+    content: '';
+    position: absolute;
+    right:  -1.5em;
+    bottom: 0em;
+    height: 1em;
+    width: 1.5em;
+    background: var(--shirt);
+}
+.shirt-hr{
+    position: absolute;
+    left:  3em;
+    bottom: 3.5em;
+    height: 2.5em;
+    width: 3em;
+    background: var(--shirt);
+    rotate: -65deg;
+}
+.shirt-hr::after{
+    content: '';
+    position: absolute;
+    left:  -1.5em;
+    bottom: 0em;
+    height: 1em;
+    width: 1.5em;
+    background: var(--shirt);
+    z-index: 1;
+}
+.left-hand{
+    position: absolute;
+    right:  2.5em;
+    bottom: 1.3em;
+    height: 1em;
+    width: 2em;
+    background: var(--skin);
+    rotate: 4deg;
+}
+.left-hand::before{
+    content: '';
+    position: absolute;
+    right:  1.9em;
+    top: -0.2em;
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 35%;
+    background: var(--skin);
+    rotate: 4deg;
+    z-index: 0;
+}
+.right-hand{
+    position: absolute;
+    left:  3em;
+    bottom: 1.3em;
+    height: 1em;
+    width: 2em;
+    background: var(--skin);
+    rotate: -1deg;
+}
+.right-hand::after{
+    content: '';
+    position: absolute;
+    left:  1.9em;
+    top: -0.2em;
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 35%;
+    background: var(--skin);
+    rotate: 10deg;
+}
+
+.fr1{
+    position: absolute;
+    left: 2.8em;
+    bottom: 1em;
+    height: 0.3em;
+    width: 1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: -20deg;
+}
+.fr2{
+    position: absolute;
+    left: 3em;
+    bottom: 0.6em;
+    height: 0.3em;
+    width: 1.1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: -15deg;
+}
+.fr3{
+    position: absolute;
+    left: 3em;
+    bottom: 0.2em;
+    height: 0.3em;
+    width: 1.1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: -8deg;
+}
+.fr4{
+    position: absolute;
+    left: 2.9em;
+    bottom: -0.2em;
+    height: 0.3em;
+    width: 1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: 6deg;
+}
+.fr5{
+    position: absolute;
+    left: 2.2em;
+    top: -0.5em;
+    height: 0.3em;
+    width: 1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: -35deg;
+}
+
+.fl1{
+    position: absolute;
+    right: 2.8em;
+    bottom: 1em;
+    height: 0.3em;
+    width: 1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: 20deg;
+}
+.fl2{
+    position: absolute;
+    right: 3em;
+    bottom: 0.6em;
+    height: 0.3em;
+    width: 1.1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: 15deg;
+}
+.fl3{
+    position: absolute;
+    right: 3em;
+    bottom: 0.2em;
+    height: 0.3em;
+    width: 1.1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: 8deg;
+}
+.fl4{
+    position: absolute;
+    right: 2.9em;
+    bottom: -0.2em;
+    height: 0.3em;
+    width: 1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: -6deg;
+}
+.fl5{
+    position: absolute;
+    right: 2.2em;
+    top: -0.5em;
+    height: 0.3em;
+    width: 1em;
+    border-radius: 50%;
+    background: var(--skin);
+    rotate: 35deg;
+}
+
+.ribbon{
+    position: absolute;
+    top: 7.45em;
+    left: 9.7em;
+    height: 0.7em;
+    width: 0.4em;
+    background-color: red;
+    border: 1px solid rgb(142, 56, 56);
+    border-radius: 40%;
+    z-index: 3;
+    rotate: -10deg;
+}
+.ribbon::after{
+    content: '';
+    position: absolute;
+    top: 0.05em;
+    left: 0.2em;
+    height: 0.65em;
+    width: 0.4em;
+    background-color: red;
+    border: 1px solid rgb(142, 56, 56);
+    border-left: 0;
+    border-radius: 40%;
+    z-index: 3;
+    rotate: 20deg;
+}
+
+.ribbon-l{
+    position: absolute;
+    top: 7.32em;
+    left: 8.6em;
+    height: 0.8em;
+    width: 1.3em;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 50%;
+    background-color: var(--ribben);
+    border: 1px solid rgb(142, 56, 56);
+    rotate: -20deg;
+    z-index: 1;
+}
+.ribbon-l::after{
+    content: '';
+    top: 0.6em;
+    position: absolute;
+    height: 0.5em;
+    width: 1.3em;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 30%;
+    background-color: var(--ribben);
+    z-index: 2;
+}
+.ribbon-r{
+    position: absolute;
+    top: 7.32em;
+    right: 8.4em;
+    height: 0.8em;
+    width: 1.3em;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--ribben);
+    border: 1px solid rgb(142, 56, 56);
+    rotate: 20deg;
+    z-index: 1;
+}
+.ribbon-r::after{
+    content: '';
+    top: 0.6em;
+    position: absolute;
+    height: 0.5em;
+    width: 1.3em;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 30%;
+    background-color: var(--ribben);
+    z-index: 2;
+}
+.colar{
+    position: absolute;
+    top: 7em!important;
+    height: 0;
+    width: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-top: 1em solid var(--colar);
+    z-index: 1;
+}
+.colar-1{
+    position: absolute;
+    top: 7.7em;
+    height: 1.5em;
+    width: 0.5em;
+    background-color: var(--colar);
+    z-index: 1;
+}
+
+.shirt-btn{
+    position: absolute;
+    top: 0.6em;
+    left: 0.1em;
+    height: 0.2em;
+    width: 0.2em;
+    background-color: rgb(188, 201, 202);
+    border: 0.001em solid silver;
+    border-radius: 100%;
+}

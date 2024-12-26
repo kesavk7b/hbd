@@ -1,0 +1,14 @@
+.letter{
+    position: absolute;
+    height: 5em;
+    width: 8em;
+    background-color: rgb(65, 169, 65);
+    bottom: 1.5em;
+}
+.let-ribbon-line{
+    position: absolute;
+    height: 1em;
+    width: 8em;
+    top: 2em;
+    background-color: red;
+}

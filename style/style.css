@@ -1,0 +1,537 @@
+@import url('colorRoot.css');
+
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(121, 166, 185);
+    background-image: var(--background);
+
+}
+.tab{
+    position: absolute;
+    height: 3.5em;
+    width: 20em;
+    background-color: rgb(193, 137, 15);
+    bottom: 10.2em;
+    z-index: 1;
+}
+.tab1{
+    position: absolute;
+    height: 2em;
+    width: 18em;
+    background-color: rgb(214, 157, 34);
+    bottom: 8.2em;
+    z-index: 0;
+}
+.tab1::after{
+    content: '';
+    position: absolute;
+    height: 10em;
+    width: 1em;
+    background-color: rgb(214, 157, 34);
+    /* bottom: 8.2em; */
+    z-index: 0;
+}
+.tab1::before{
+    content: '';
+    position: absolute;
+    height: 10em;
+    width: 1em;
+    background-color: rgb(214, 157, 34);
+    right: 0em;
+    z-index: 0;
+}
+.cake-con{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+    width: 10em;
+    z-index: 2;
+}
+
+.c1-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    top: 22.5em;
+    z-index: 0;
+}
+.c2-wrapper{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    z-index: 1;
+}
+.c3-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    z-index: 2;
+}
+
+.cake-1{
+    position: absolute;
+    top: -3.8em;
+    height: 4em;
+    width: 15em;
+    background-color: var(--cake);
+    z-index: 0;
+}
+.cake-1::before{
+    position: absolute;
+    content:'';
+    display: block;
+    height: 5em;
+    width: 15em;
+    border-radius: 50%;
+    background-color: var(--cream);
+    bottom: 1.7em;
+    transform: rotateX(45deg);
+    z-index: 3;
+}
+.cake-1::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 5em;
+    width: 15em;
+    top:1.3em;
+    border-radius: 50%;
+    background-color: var(--cake);
+    transform: rotateX(45deg);
+    z-index: 1;
+}
+.cream-c1{
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    z-index: 2;
+}
+.cream-c1::before{
+    content: '';
+    position: absolute;
+    height: 2.3em;
+    width: 0.9em;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1.5em;
+    z-index: 2;
+}
+
+.cream-c1::after{
+    position: absolute;
+    content: '';
+    height: 3.5em;
+    width: 2em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2.3em;
+    z-index: 2;
+}
+.cream-c2{
+    position: absolute;
+    height: 3em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 4.3em;
+    z-index: 2;
+}
+.cream-c2::before{
+    content: '';
+    position: absolute;
+    height: 3.5em;
+    width: 1.7em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1em;
+    z-index: 2;
+}
+.cream-c2::after{
+    position: absolute;
+    content: '';
+    height: 2.5em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2.6em;
+    z-index: 2;
+}
+
+
+.cream-c3{
+    position: absolute;
+    height: 3.5em;
+    width: 2em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 7.8em;
+    z-index: 2;
+}
+.cream-c3::before{
+    content: '';
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 3em;
+    z-index: 2;
+}
+.cream-c3::after{
+    position: absolute;
+    content: '';
+    height: 2em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2em;
+    z-index: 2;
+}
+.cream-c4{
+    position: absolute;
+    height: 2em;
+    width: 0.8em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 12em;
+    z-index: 2;
+}
+.cream-c4::before{
+    content: '';
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 0.7em;
+    z-index: 2;
+}
+.cream-c4::after{
+    position: absolute;
+    content: '';
+    height: 2em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2em;
+    z-index: 2;
+}
+
+
+.cake-2{
+    position: absolute;
+    top: 14em;
+    height: 4em;
+    width: 10em;
+    background-color: var(--cake);
+    z-index: 2;
+}
+.cake-2::before{
+    position: absolute;
+    content:'';
+    top: -1.8em;
+    height: 5em;
+    width: 10em;
+    border-bottom-left-radius: 11em;
+    border-bottom-right-radius: 11em;
+    background-color: var(--cream);
+    bottom: 1.7em;
+    transform: rotateX(70deg);
+    z-index:3;
+}
+.cake-out-1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 46.5vh;
+    height: 5em;
+    width: 10em;
+    border-top-left-radius: 11em;
+    border-top-right-radius: 11em;
+    background-color: var(--cream);
+    bottom: 1.7em;
+    transform: rotateX(70deg);
+    z-index: 0;
+    
+}
+.cake-out-1::after{
+    position: absolute;
+    content: '';
+    top: 7.1vh;
+    height: 2em;
+    width: 5.4em;
+    border: 0.1em solid red;
+    border-bottom: 0;
+    border-top-left-radius: 11em;
+    border-top-right-radius: 11em;
+    z-index: 1;
+    /* animation: cake-hole 70s; */
+}
+.cake-out-2{
+    position: absolute;
+    content: '';
+    top: -1.1em;
+    left: 2.2em;
+    height: 2em;
+    width: 5.4em;
+    border: 0.1em solid red;
+    border-top: 0;
+    border-bottom-left-radius: 11em;
+    border-bottom-right-radius: 11em;
+    background-color: rgb(37, 41, 40);
+    transform: rotateX(75deg);
+    z-index: 3;
+    animation: cake-hole 70s;
+}
+/* .cake-out-2{
+    position: absolute;
+    content: '';
+    top: 56.4vh;
+    height: 2em;
+    width: 5.4em;
+    border: 0.1em solid red;
+    border-top: 0;
+    border-bottom-left-radius: 11em;
+    border-bottom-right-radius: 11em;
+    background-color: rgb(37, 41, 40);
+    transform: rotateX(75deg);
+    z-index: 2;
+} */
+.cake-2::after{
+    content:'';
+    position: absolute;
+    height: 5em;
+    width: 10em;
+    top:1.3em;
+    border-radius: 50%;
+    background-color: var(--cake);
+    transform: rotateX(45deg);
+    z-index: 1;
+}
+.cream1-c1{
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    z-index: 2;
+}
+.cream1-c1::before{
+    content: '';
+    position: absolute;
+    height: 2.3em;
+    width: 0.9em;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1.5em;
+    z-index: 2;
+}
+
+.cream1-c1::after{
+    position: absolute;
+    content: '';
+    height: 3.5em;
+    width: 2em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2.3em;
+    z-index: 2;
+}
+.cream1-c2{
+    position: absolute;
+    height: 3em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 4.3em;
+    z-index: 2;
+}
+.cream1-c2::before{
+    content: '';
+    position: absolute;
+    height: 3.5em;
+    width: 1.7em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1em;
+    z-index: 2;
+}
+.cream1-c2::after{
+    position: absolute;
+    content: '';
+    height: 2.5em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2.1em;
+    z-index: 2;
+}
+
+
+.cream1-c3{
+    position: absolute;
+    height: 3em;
+    width: 1em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 7.4em;
+    z-index: 2;
+}
+.cream1-c3::before{
+    content: '';
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1em;
+    z-index: 2;
+}
+.cream1-c3::after{
+    position: absolute;
+    content: '';
+    height: 2em;
+    width: 0.6em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 2em;
+    z-index: 2;
+}
+
+.cake-3{
+    position: absolute;
+    top: 10em;
+    height: 4.5em;
+    width: 5.3em;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-color: var(--cake);
+    z-index: 7;
+}
+.cake-3::before{
+    position: absolute;
+    content:'';
+    display: block;
+    height: 4.5em;
+    width: 5.3em;
+    border-radius: 50%;
+    background-color: var(--cream);
+    bottom: 1.9em;
+    transform: rotateX(45deg);
+    z-index: 3;
+}
+.cake-3::after{
+    content:'';
+    /*position: absolute;
+    display: block;
+    height: 4.5em;
+    width: 6em;
+    top:1.8em;
+    border-radius: 50%;
+    background-color: var(--cake);
+    transform: rotateX(45deg);
+    z-index: 1; */
+}
+
+.cream2-c1{
+    position: absolute;
+    height: 3em;
+    width: 1.3em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    /* left: 0.1em; */
+    z-index: 2;
+}
+.cream2-c1::before{
+    content: '';
+    position: absolute;
+    height: 2.5em;
+    width: 0.8em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1.2em;
+    z-index: 2;
+}
+.cream2-c1::after{
+    content: '';
+    position: absolute;
+    height: 3.5em;
+    width: 1.6em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1.8em;
+    z-index: 2;
+}
+
+.cream2-c2{
+    position: absolute;
+    height: 2.4em;
+    width: 0.8em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 3.4em;
+    z-index: 2;
+}
+.cream2-c2::before{
+    content: '';
+    position: absolute;
+    height: 2.5em;
+    width: 0.7em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 0.7em;
+    z-index: 2;
+}
+.cream2-c2::after{
+    content: '';
+    position: absolute;
+    height: 3.3em;
+    width: 0.6em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    left: 1.3em;
+    z-index: 2;
+}

@@ -1,0 +1,47 @@
+:root{
+    --cream:rgb(252, 247, 247);
+    --melt:white;
+    --cake:rgb(223, 59, 157);
+}
+
+.cake-2{
+    position: absolute;
+    height: 4em;
+    width: 10em;
+    background-color: var(--cake);
+    z-index: 0;
+}
+.cake-2::before{
+    position: absolute;
+    content:'';
+    display: block;
+    height: 5em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: var(--cream);
+    bottom: 1.7em;
+    transform: rotateX(45deg);
+    z-index: 3;
+}
+.cake-2::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 5em;
+    width: 10em;
+    top:1.3em;
+    border-radius: 50%;
+    background-color: var(--cake);
+    transform: rotateX(45deg);
+    z-index: 1;
+}
+.cream-c1{
+    position: absolute;
+    height: 3em;
+    width: 1.5em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--melt);
+    z-index: 2;
+}
+
