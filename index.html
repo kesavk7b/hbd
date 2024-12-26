@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="/style/strawbery.css">
     <link rel="stylesheet" href="/style/otherStyle.css">
     <link rel="stylesheet" href="/style/letter.css">
+    <link rel="stylesheet" href="/style/modal.css">
     <link rel="stylesheet" href="/style/animation/animation.css">
     <link rel="stylesheet" href="/style/animation/animationClass.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -151,9 +153,20 @@
     <div class="tab hidecon"></div>
     <div class="tab1 hidecon"></div>
 
-    <!-- gift -->
-     <div class="letter">
-        <div class="let-ribbon-line"></div>
+    <!-- letter -->
+     <div class="letter letterAnim" id="letter_cover" onclick="openModal()">
+        <div class="label"></div>
+        <div class="love"></div>
      </div>
+
+     <!-- letter content modal -->
+      <div class="modal" id="letter_modal" onclick="closeModal()">
+        <div class="letter-content">
+            Happy Birthday, Suga! 🌸 Every day with you feels like a precious gift, and today, I hope your day is filled with all the joy and love you bring into the lives of those around you. You deserve nothing less than the best, and I’m so lucky to know someone as special as you. Wishing you a year ahead full of happiness, laughter, and countless beautiful moments. 
+            <p style="text-align: end;padding: 10px;">By <br>KB</p>
+        </div>
+      </div>
+
+      <script src="modal.js"></script>
 </body>
 </html>

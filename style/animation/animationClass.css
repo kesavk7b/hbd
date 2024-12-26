@@ -28,6 +28,13 @@
     animation: growline 3s ease-in-out forwards,moveTop 5s ease-in-out forwards 4s;
 }
 
+
+/* letter animation */
+
+.letterAnim{
+    animation: hide 20s ease-in-out forwards,letterShake 0.5s ease-in-out infinite;
+}
+
 :is(.wish,.wish1,.name) span{
     font-size: 2em;
     font-weight: bold;
