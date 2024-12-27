@@ -1,21 +1,21 @@
 .cakeAnim{
-    animation: cake-pop 0.3s ease-in-out forwards 8s;
+    animation: cake-pop 0.3s ease-in-out forwards 1s;
 }
 
 .toyAnim{
-    animation: toy-pop 0.3s ease-in-out forwards 8s;
+    animation: toy-pop 0.3s ease-in-out forwards 1s;
 }
 
 .hair10Anim{
-    animation: hide-hair 0.3s ease-in-out forwards 8s;
+    animation: hide-hair 0.3s ease-in-out forwards 1s;
 }
 
 .handAnim-l{
-    animation: hand-left 0.3s ease-in-out forwards 8s;
+    animation: hand-left 0.3s ease-in-out forwards 1s;
 }
 
 .handAnim-r{
-    animation: hand-right 0.3s ease-in-out forwards 8s;
+    animation: hand-right 0.3s ease-in-out forwards 1s;
 }
 
 

@@ -14,10 +14,10 @@ html,body{
 }
 .tab{
     position: absolute;
-    height: 3.5em;
+    height: 4em;
     width: 20em;
     background-color: rgb(193, 137, 15);
-    bottom: 10.2em;
+    bottom: 9em;
     z-index: 1;
 }
 .tab1{
@@ -273,7 +273,7 @@ html,body{
     justify-content: center;
     top: 46.5vh;
     height: 5em;
-    width: 10em;
+    width: 70em;
     border-top-left-radius: 11em;
     border-top-right-radius: 11em;
     background-color: var(--cream);
