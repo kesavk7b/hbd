@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "suga";
+    src: url("../font/font.ttf") format("truetype");
+  }
+
 .modal{
     position: fixed;
     display: none;
@@ -13,6 +18,7 @@
 }
 
 .letter-content{
+    font-family: 'suga',sans-serif;
     height: 50vh;
     width: 55vw;
     padding: 15px;
