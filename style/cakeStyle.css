@@ -17,16 +17,16 @@ html,body{
     height: 4em;
     width: 20em;
     background-color: rgb(193, 137, 15);
-    bottom: 9em;
-    z-index: 1;
+    bottom: -5em;
+    z-index: -1;
 }
 .tab1{
     position: absolute;
     height: 2em;
     width: 18em;
     background-color: rgb(214, 157, 34);
-    bottom: 8.2em;
-    z-index: 0;
+    bottom: -6em;
+    z-index: -2;
 }
 .tab1::after{
     content: '';
@@ -55,6 +55,16 @@ html,body{
     height: 20em;
     width: 10em;
     z-index: 2;
+}
+.cake-con-out{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+    width: 10em;
+    z-index: 0;
 }
 
 .c1-wrapper{
@@ -271,7 +281,7 @@ html,body{
     position: absolute;
     display: flex;
     justify-content: center;
-    top: 46.5vh;
+    top: 10.5em;
     height: 5em;
     width: 10em;
     border-top-left-radius: 11em;
