@@ -3,7 +3,9 @@
     height: 5em;
     width: 8em;
     background-color: rgb(75, 202, 75);
+    box-shadow: 0 0 20px 1px rgb(165, 240, 165);
     bottom: 1.5em;
+    word-break: keep-all;
 }
 .label{
     height: 0;

@@ -2,7 +2,7 @@
     --shirt:#162016;
     --ribben:#FD1622;
     --colar:#3A28A8;
-    --line: rgb(54, 147, 178);
+    --line: rgb(20, 37, 69);
     --skin:rgb(235, 204, 166);
     --cream:rgb(252, 247, 247);
     --melt:white;
@@ -12,12 +12,3 @@
     linear-gradient(127deg, rgba(16, 6, 43, 0.8), rgba(0,255,0,0) 70.71%),
     linear-gradient(336deg, rgba(6, 6, 38, 0.8), rgba(0,0,255,0) 70.71%);
 }
-/* :root{
-    --shirt:#162016;
-    --ribben:#FD1622;
-    --colar:#3A28A8;
-    --skin:bisque;
-    --cream:rgb(252, 247, 247);
-    --melt:white;
-    --cake:rgb(223, 59, 157);
-} */
