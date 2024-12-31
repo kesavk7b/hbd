@@ -126,33 +126,30 @@
 }
 
 .wish span:nth-child(1) {
-    animation-delay: 3.9s;
+    animation-delay: 3.1s;
 }
 .wish span:nth-child(2) {
-    animation-delay: 3.1s;
+    animation-delay: 3.2s;
 }
 .wish span:nth-child(3) {
-    animation-delay: 3.2s;
+    animation-delay: 3.3s;
 }
 .wish span:nth-child(4) {
-    animation-delay: 3.3s;
-}
-.wish span:nth-child(5) {
     animation-delay: 3.4s;
 }
-.wish span:nth-child(6) {
+.wish span:nth-child(5) {
     animation-delay: 3.5s;
 }
-.wish span:nth-child(7) {
+.wish span:nth-child(6) {
     animation-delay: 3.1s;
 }
-.wish span:nth-child(8) {
+.wish span:nth-child(7) {
     animation-delay: 3.2s;
 }
-.wish span:nth-child(9) {
+.wish span:nth-child(8) {
     animation-delay: 3.3s;
 }
-.wish span:nth-child(10) {
+.wish span:nth-child(9) {
     animation-delay: 3.5s;
 }
 
